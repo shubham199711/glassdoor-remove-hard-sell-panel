@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Glassdoor Remove Hard Sell Panel",
+  "description": "The extension removes the hard sell panel from glassdoor",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "https://www.glassdoor.com/"]
+}
