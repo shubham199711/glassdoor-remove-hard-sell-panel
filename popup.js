@@ -5,5 +5,7 @@ if (HardsellOverlay) {
     HardsellOverlay.remove()
 }
 const body = document.body
-body.style.overflow = 'auto'
-body.style.position = 'unset'
+if (body) {
+    body.style.overflow = 'auto'
+    body.style.position = 'unset'
+}
